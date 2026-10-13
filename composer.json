@@ -1,0 +1,88 @@
+{
+    "name": "wilycode/database-query-executor-profiler",
+    "description": "Optional query and parameter-binding profiling decorators for WilyCode database executors.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.4",
+        "wilycode/database-query": "^0.1",
+        "wilycode/database-query-executor": "^0.1",
+        "wilycode/profiler": "^0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0",
+        "wilycode/profiler-php": "^0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "WilyCode\\Database\\QueryExecutorProfiler\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WilyCode\\Database\\QueryExecutorProfiler\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Simon Piter"
+        }
+    ],
+    "scripts": {
+        "test": "phpunit -c phpunit.xml"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "0.1.x-dev"
+        }
+    },
+    "archive": {
+        "exclude": [
+            "/tests",
+            "/examples",
+            "/docs",
+            "/benchmark",
+            "/benchmarks",
+            "/tools",
+            "/phpunit.xml",
+            "/phpunit.xml.dist",
+            "/CHANGELOG.md",
+            "/CONTRIBUTING.md",
+            "/CODE_OF_CONDUCT.md",
+            "/SECURITY.md",
+            "/composer.lock",
+            "/.github",
+            "/.gitignore",
+            "/.gitattributes",
+            "/.editorconfig",
+            "/.phpunit.cache",
+            "/.phpunit.result.cache",
+            "/phpstan.neon",
+            "/phpstan.neon.dist",
+            "/phpstan.*.neon",
+            "/phpstan.*.neon.dist",
+            "/pint.json",
+            "/rector.php",
+            "/psalm.xml",
+            "/psalm.xml.dist",
+            "/infection.json",
+            "/infection.json.dist"
+        ]
+    },
+    "keywords": [
+        "wilycode",
+        "database",
+        "query",
+        "sql",
+        "profiler",
+        "profiling",
+        "metrics",
+        "performance",
+        "decorator"
+    ],
+    "homepage": "https://github.com/wilycode/database-query-executor-profiler",
+    "support": {
+        "issues": "https://github.com/wilycode/database-query-executor-profiler/issues",
+        "source": "https://github.com/wilycode/database-query-executor-profiler"
+    }
+}
