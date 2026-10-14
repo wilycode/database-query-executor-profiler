@@ -88,10 +88,10 @@ composer require wilycode/database-query-executor-profiler wilycode/profiler-php
 For PDO integration, also install:
 
 ```bash
-composer require wilycode/database-driver-pdo
+composer require wilycode/database-pdo
 ```
 
-For MySQLi, use `wilycode/database-driver-mysqli` instead. The base executor and profiling adapter do not require both drivers.
+For MySQLi, use `wilycode/database-mysqli` instead. The base executor and profiling adapter do not require both drivers.
 
 ## Quick start (PDO)
 
@@ -373,9 +373,9 @@ Recording behavior on errors depends on the `ProfilerInterface` implementation; 
 | --- | --- |
 | [`wilycode/database-query`](https://github.com/wilycode/database-query) | Build and compile SQL queries. |
 | [`wilycode/database-query-executor`](https://github.com/wilycode/database-query-executor) | Execute queries through an injected driver and binder. |
-| [`wilycode/database-driver`](https://github.com/wilycode/database-driver) | Database driver contracts. |
-| [`wilycode/database-driver-pdo`](https://github.com/wilycode/database-driver-pdo) | PDO adapter and binder. |
-| [`wilycode/database-driver-mysqli`](https://github.com/wilycode/database-driver-mysqli) | MySQLi adapter and binder. |
+| [`wilycode/database`](https://github.com/wilycode/database) | Database driver contracts. |
+| [`wilycode/database-pdo`](https://github.com/wilycode/database-pdo) | PDO adapter and binder. |
+| [`wilycode/database-mysqli`](https://github.com/wilycode/database-mysqli) | MySQLi adapter and binder. |
 | [`wilycode/profiler`](https://github.com/wilycode/profiler) | Profiling contracts and metric/trace types. |
 | [`wilycode/profiler-php`](https://github.com/wilycode/profiler-php) | Native PHP profiler implementation. |
 | [`wilycode/database-query-executor-cache`](https://github.com/wilycode/database-query-executor-cache) | Optional PSR-16 caching decorator. |
