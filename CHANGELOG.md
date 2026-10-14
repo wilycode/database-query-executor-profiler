@@ -4,6 +4,12 @@ All notable changes to this package will be documented in this file.
 
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and this project uses [Semantic Versioning](https://semver.org/).
 
+## [Unreleased]
+
+### Changed
+
+- Updated the installation examples and related-package links to the renamed database packages.
+
 ## [0.1.0] - 2026-10-13
 
 ### Added
